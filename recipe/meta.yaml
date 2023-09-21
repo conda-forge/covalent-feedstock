@@ -1,5 +1,5 @@
 {% set name = "covalent" %}
-{% set version = "0.220.0" %}
+{% set version = "0.220.0.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/covalent-{{ version }}.tar.gz
-  sha256: 5cb9763a11b248d8f925af07582ec2f358d17a9ec48bc603f310988f20bff0d2
+  sha256: 891f66697159052ff594ae5e58aa209fade8b38d691abc02f9d11bfc5423ce84
 
 build:
   entry_points:
