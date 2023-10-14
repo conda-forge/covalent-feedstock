@@ -47,6 +47,7 @@ requirements:
     - mpire
     - orjson
     - python-lmdb
+    - lmdbm
 
 test:
   imports:
