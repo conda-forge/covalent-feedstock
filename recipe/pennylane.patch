@@ -1,0 +1,22 @@
+From c90c6fd85af59292033d7f4085ded555f384fd3e Mon Sep 17 00:00:00 2001
+From: Jan Janssen <jan-janssen@users.noreply.github.com>
+Date: Sat, 14 Oct 2023 20:31:00 +0200
+Subject: [PATCH] Update requirements.txt
+
+---
+ requirements.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/requirements.txt b/requirements.txt
+index d8f9f29..b8baa29 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -10,7 +10,7 @@ lmdbm==0.0.5
+ mpire==2.7.1
+ networkx==2.8.6
+ orjson==3.8.10
+-pennylane==0.31.1
++pennylane==0.31.0
+ psutil>=5.9.0
+ pydantic>=1.10.1,<=1.10.2
+ python-socketio==5.7.1
