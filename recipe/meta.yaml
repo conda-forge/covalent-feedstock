@@ -46,6 +46,7 @@ requirements:
     - pennylane
     - mpire
     - orjson
+    - lmdb
 
 test:
   imports:
