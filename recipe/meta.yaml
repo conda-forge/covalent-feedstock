@@ -48,6 +48,7 @@ requirements:
     - orjson
     - python-lmdb
     - lmdbm
+    - pybind11
 
 test:
   imports:
