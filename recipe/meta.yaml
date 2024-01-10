@@ -1,5 +1,5 @@
 {% set name = "covalent" %}
-{% set version = "0.220.0.post2" %}
+{% set version = "0.232.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/covalent-{{ version }}.tar.gz
-  sha256: bc511e183e2f00ea300712ca64c1dc2557ed8a919f7e09cbd658e7a5a5be0c03
+  sha256: 204cd9e49d6225bd3c4ab274717221ba44bc8b389c27b8249fef64aa291bd945
   patches:
     - pennylane.patch
 
