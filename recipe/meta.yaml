@@ -8,6 +8,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/covalent-{{ version }}.tar.gz
   sha256: 204cd9e49d6225bd3c4ab274717221ba44bc8b389c27b8249fef64aa291bd945
+  patches:
+    - pennylane.patch
 
 build:
   entry_points:
