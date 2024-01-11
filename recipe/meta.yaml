@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/covalent-{{ version }}.tar.gz
   sha256: 204cd9e49d6225bd3c4ab274717221ba44bc8b389c27b8249fef64aa291bd945
-  patches:
-    - pennylane.patch
 
 build:
   entry_points:
@@ -55,6 +53,7 @@ requirements:
     - uvicorn >=0.18.2,<=0.18.3
     - watchdog =2.2.1
     - werkzeug >=2.0.3,<=2.2.2
+    - pybind11
 
 test:
   imports:
