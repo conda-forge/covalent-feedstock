@@ -55,7 +55,6 @@ requirements:
     - watchdog >=2.2.1
     - werkzeug >=2.0.3
     - pybind11
-    - importlib-metadata
 
 test:
   imports:
